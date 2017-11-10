@@ -15,21 +15,6 @@ Designed & Handcrafted by Zan from ninetofive.me
 
 $(document).ready(function() { 
 
-	//Animated scrolling		   
-	$('ul.mainmenu a').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			var $target = $(this.hash);
-			$target = $target.length && $target || $('[id=' + this.hash.slice(1) +']');
-			if ($target.length) {
-				$('ul.mainmenu li').removeClass('active');
-				$(this).parent('li').addClass('active');
-				var targetOffset = $target.offset().top-100;
-				$('html,body').animate({scrollTop: targetOffset}, 1000);
-				return false;
-			}
-		}
-	});
-
 	// Scroll Down Link
 	$('.scrolldown').click(function() {
 		var targetOffset = $('.home.hero').height()+2;
@@ -119,9 +104,6 @@ $(document).ready(function() {
 		});
 	});
 
-	// Start Carousel
-	// $('#carousellatest').jcarousel();
-
 	// Carousel Hover
 	$('div.section.block').hover(
 		function () {
@@ -134,6 +116,7 @@ $(document).ready(function() {
 		}
 	);
 
+	// Start Carousel
 	$('div.section.full').jcarousel();
 
     $(function() {
@@ -146,13 +129,13 @@ $(document).ready(function() {
                 carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
             })
             .jcarousel({
-                wrap: 'circular', animation: 3000
+                wrap: 'circular', animation: 0
             })
-            .jcarouselAutoscroll({
-            interval: 1000,
-            target: '+=1',
-            autostart: true
-        	});
+         //    .jcarouselAutoscroll({
+         //    interval: 1000,
+         //    target: '+=1',
+         //    autostart: true
+        	// });
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
