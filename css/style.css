@@ -385,8 +385,6 @@ div.quotehover {
 	left: 0px;
 	width: 300px;
 	height: 400px;
-	/*background-image: url(../img/quotehover.png);*/
-	background-repeat: no-repeat;
 	background-color: rgba(96, 147, 231, 0.6);
 }
 div.quotehover h5, div.quotehover h6 {
