@@ -1,13 +1,7 @@
 /******************************************************************
 *******************************************************************
 
-Template Name: Treviso
-Theme URI: http://themeforest.ninetofive.me/treviso/
-Description: Responsive HTML5 Template
-Author: ninetofive
-Author URI: http://www.ninetofive.me
-Version: 1.0
-							
+Adapted from Template - Treviso							
 Designed & Handcrafted by Zan from ninetofive.me
 									
 *******************************************************************
@@ -54,6 +48,7 @@ html, body {
 	height: 100%;
 	letter-spacing: 0.025em;
 	-webkit-font-smoothing: subpixel-antialiased;
+	min-width: 900px;
 }
 
 /******************************************************************
@@ -299,6 +294,7 @@ a.scrolldown {
 	Menu
 ******************************************************************/
 .menubar {
+	min-width: 900px;
 	position: fixed;
 	top: 0px;
 	height: 80px;
@@ -714,6 +710,7 @@ div.section.block img {
 	Individ Projects Page
 ******************************************************************/
 .wrapper4{
+	min-width: 900px;
 	width: 100%;
 	margin-top: 80px;
 	margin-left: auto;
@@ -732,7 +729,8 @@ div.section.block img {
 	margin:20px auto;
 }
 .proj_pics{
-	max-height: 400px;
+	min-width: 900px;
+	max-height: 300px;
 	/*max-width: 400px;*/
 	text-align: center;
 	width: 80%;
@@ -760,6 +758,14 @@ div.section.block img {
 	color: rgba(0,0,0,.6);
 }
 .proj_desc p{
+	padding: 10px 0 0 0;
+	font-size: 14px;
+}
+.proj_desc li{
+	margin-left: 10px; 
+	font-family: "Open Sans", Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #848484;
 	padding: 10px 0 0 0;
 	font-size: 14px;
 }
