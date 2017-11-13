@@ -1,18 +1,3 @@
-/******************************************************************
-*******************************************************************
-
-Template Name: Treviso
-Theme URI: http://themeforest.ninetofive.me/treviso/
-Description: Responsive HTML5 Template
-Author: ninetofive
-Author URI: http://www.ninetofive.me
-Version: 1.0
-							
-Designed & Handcrafted by Zan from ninetofive.me
-									
-*******************************************************************
-******************************************************************/
-
 $(document).ready(function() { 
 
 	// Scroll Down Link
@@ -33,7 +18,7 @@ $(document).ready(function() {
 		};
 	});
 	$(window).scroll(function(){
-		if ($('body').scrollTop() > $('.home.hero').height()/2 && scroll == 'true') {
+		if ($(window).scrollTop() > $('.home.hero').height()/2 && scroll == 'true') {
 			if (nav.data('size') == 'big') {
 				nav.data('size','small').stop().animate({
 					marginTop:'0px'
@@ -116,46 +101,31 @@ $(document).ready(function() {
 		}
 	);
 
-	// Start Carousel
-	$('div.section.full').jcarousel();
-
-    $(function() {
-        var jcarousel = $('div.section.full');
-
-        jcarousel
-            .on('jcarousel:reload jcarousel:create', function () {
-                var carousel = $(this),
-                    width = carousel.innerWidth();
-                carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
-            })
-            .jcarousel({
-                wrap: 'circular', animation: 0
-            })
-         //    .jcarouselAutoscroll({
-         //    interval: 1000,
-         //    target: '+=1',
-         //    autostart: true
-        	// });
-
-        $('.jcarousel-control-prev')
-            .jcarouselControl({
-                target: '-=1'
-            });
-
-        $('.jcarousel-control-next')
-            .jcarouselControl({
-                target: '+=1'
-            });
-    });
+	$('div.section.full').slick({
+  	  infinite:true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  touchMove: true,
+	  swipe:true,
+	  draggable: false
+	});
+	
 
     // Rotate Carousel with left and right
 	$(document).keydown( 
 		function(eventObject) {
 		     if(eventObject.which==37) {//left arrow
-		    	$(".jcarousel-control-prev").trigger('click'); //emulates click on prev button 
+		    	$('.slick-prev').trigger('click'); //emulates click on prev button 
 		     } else if(eventObject.which==39) {//right arrow
-		        $(".jcarousel-control-next").trigger('click'); //emulates click on next button
+		        $('.slick-next').trigger('click'); //emulates click on next button
 		     }
 		} 
 	);
+
 });
+
+/******************************************************************
+Made by Bryan Thov - 2017
+Adapted from Template - Treviso							
+Designed & Handcrafted by Zan from ninetofive.me								
+******************************************************************/

@@ -585,8 +585,8 @@ li.filter.active {
 /******************************************************************
 	jCarousel
 ******************************************************************/
-.jcarousel-control-prev,
-.jcarousel-control-next {
+/*.control-prev,
+.control-next {
     position: absolute;
     top: 50%;
     margin-top: -15px;
@@ -597,12 +597,12 @@ li.filter.active {
     color: #fff;
     font: 24px/27px Arial, sans-serif;
 }
-.jcarousel-control-prev {
+.control-prev {
     left: 20px;
 }
-.jcarousel-control-next {
+.control-next {
     right: 20px;
-}
+}*/
 /******************************************************************
 	Photography
 ******************************************************************/
@@ -631,24 +631,17 @@ div.section.full {
 	height: 500px;
 	overflow: hidden;
 }
-div.section.full ul {
-	width: 2400em;
-	position: relative;
-}
-div.section.full li {
-	margin-top: 20px;
-	float: left;
-}
 div.section.block {
 	width: 500px;
 	height: 500px;
-	text-align: center;
 	cursor: pointer;
+	text-align: center;
 }
 div.section.block img {
+	display: inline-block;
+	vertical-align: middle;
     max-width: 100%;
     max-height: 100%;
-    vertical-align: middle;
 }
 .wrapper3{
 	height: 100%;
@@ -764,4 +757,16 @@ Made by Bryan Thov - 2017
 Adapted from Template - Treviso							
 Designed & Handcrafted by Zan from ninetofive.me								
 ******************************************************************/
-
+.slick-prev, .slick-next{
+	position: fixed;
+	z-index: 1;
+}
+.slick-prev{
+	left:20px;
+}
+.slick-next{
+	right:20px;
+}
+.slick-prev:before, .slick-next:before{
+	color: #848484;
+}

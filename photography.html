@@ -2,11 +2,16 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Bryan Thov</title>
-	<!-- Load CSS -->
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<title>Bryan Thov - Photo</title>
 	<!-- Load Icon Font -->
 	<link href="css/webfont.css" rel="stylesheet" type="text/css" />
+	<!-- Load Slick CSS -->
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+	<!-- Load CSS -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<!-- Load jQuery library -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<!-- Load jCarousel js -->
@@ -14,8 +19,10 @@
 	<!-- Load MixItUup js -->
 	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
 	<!-- Load js -->
-	<script type="text/javascript" src="js/custom.js"></script></head>
-
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- Load Slick js-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+</head>
 <body scroll="no" style="overflow: hidden">
 	<div class="menubar" data-scroll="false">
 		<a href="index.html#init" class="logo"></a>
@@ -28,18 +35,13 @@
 	</div>
 	
 	<div class = "wrapper2">
-		<div class = "jcarousel-wrapper"> <!-- jcarousel-wrapper -->
-			<div class="section full" data-jcarousel="true"> <!-- jcarousel -->
-				<ul class="carousel" id="carousellatest">
-					<li><div class="section block"><span class="helper"></span><img src="photography/imgs/p1.png"></div></li>
-					<li><div class="section block"><span class="helper"></span><img src="photography/imgs/p3.png"></div></li>
-					<li><div class="section block"><span class="helper"></span><img src="photography/imgs/p2.png"></div></li>
-					<li><div class="section block"><span class="helper"></span><img src="photography/imgs/home_bg.jpg"></div></li>
-				</ul>
-				<a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
-				<a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+		<div class = "jcarousel-wrapper">
+			<div class="section full">
+				<div class="section block"><span class="helper"></span><img src="photography/imgs/p1.png"></div>
+				<div class="section block"><span class="helper"></span><img src="photography/imgs/p3.png"></div>
+				<div class="section block"><span class="helper"></span><img src="photography/imgs/p2.png"></div>
+				<div class="section block"><span class="helper"></span><img src="photography/imgs/home_bg.jpg"></div>
 			</div>
-			<div class="clear"></div>
 		</div>
 	</div>
 
