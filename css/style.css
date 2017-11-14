@@ -747,7 +747,7 @@ div.section.block img {
 /******************************************************************
 	Mobile
 ******************************************************************/
-@media all and (max-width: 600px) {
+@media all and (max-width: 980px) {
 	.portfoliowrap2{
 		width:200px;
 		margin-bottom:40px;
