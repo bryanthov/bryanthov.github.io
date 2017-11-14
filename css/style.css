@@ -277,7 +277,7 @@ a.scrolldown {
 	Menu
 ******************************************************************/
 .menubar {
-	min-width: 900px;
+	min-width: 600px;
 	position: fixed;
 	top: 0px;
 	height: 80px;
@@ -580,6 +580,8 @@ li.filter.active {
 .slick-prev, .slick-next{
 	position: fixed;
 	z-index: 1;
+	width: 40px;
+	height: 40px;
 }
 .slick-prev{
 	left:20px;
@@ -588,7 +590,8 @@ li.filter.active {
 	right:20px;
 }
 .slick-prev:before, .slick-next:before{
-	color: #848484;
+	color: #cfcfcf;
+	font-size: 40px;
 }
 /******************************************************************
 	Photography
@@ -607,6 +610,7 @@ li.filter.active {
 	margin-right: auto;
 	position: relative;
 	vertical-align: middle;
+	margin-top: 100px;
 }
 .helper {
     display: inline-block;
@@ -614,7 +618,7 @@ li.filter.active {
     vertical-align: middle;
 }
 div.section.full {
-	margin: 40px auto;
+	margin: auto;
 	width: 500px;
 	height: 500px;
 	overflow: hidden;
@@ -743,7 +747,7 @@ div.section.block img {
 /******************************************************************
 	Mobile
 ******************************************************************/
-@media all and (max-width: 1080px) {
+@media all and (max-width: 600px) {
 	.portfoliowrap2{
 		width:200px;
 		margin-bottom:40px;
@@ -874,6 +878,8 @@ div.section.block img {
 		position: fixed;
 		z-index: 1;
 		display: none;
+		width: 50px;
+		height: 50px;
 	}
 	.slick-prev{
 		left:20px;
@@ -901,7 +907,6 @@ div.section.block img {
 		margin-right: auto;
 		position: relative;
 		vertical-align: middle;
-		padding-top: 300px;
 	}
 }
 
