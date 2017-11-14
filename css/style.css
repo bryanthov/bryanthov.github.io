@@ -265,9 +265,9 @@ a.scrolldown {
 	font-size: 20px;
 	text-align: center;
 }
-.scrolldown h3 {
+.scrolldown h2 {
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 	color: #FFF;
 	font-weight: 300;
@@ -573,36 +573,23 @@ li.filter.active {
 	line-height: 50px;
 	color: #000;
 }
-/******************************************************************
-	Mobile
-******************************************************************/
-@media all and (max-width: 960px) {
-	ul.portfolio li {
-		width: 50%;
-	}
-}
 
 /******************************************************************
-	jCarousel
+	Slick
 ******************************************************************/
-/*.control-prev,
-.control-next {
-    position: absolute;
-    top: 50%;
-    margin-top: -15px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    background: rgba(0,0,0,.1);
-    color: #fff;
-    font: 24px/27px Arial, sans-serif;
+.slick-prev, .slick-next{
+	position: fixed;
+	z-index: 1;
 }
-.control-prev {
-    left: 20px;
+.slick-prev{
+	left:20px;
 }
-.control-next {
-    right: 20px;
-}*/
+.slick-next{
+	right:20px;
+}
+.slick-prev:before, .slick-next:before{
+	color: #848484;
+}
 /******************************************************************
 	Photography
 ******************************************************************/
@@ -613,6 +600,7 @@ li.filter.active {
 	margin-left: auto;
 	margin-right: auto;
 	position: fixed;
+	overflow-y: scroll;
 }
 .jcarousel-wrapper {
 	margin-left: auto;
@@ -753,20 +741,172 @@ div.section.block img {
 }
 
 /******************************************************************
+	Mobile
+******************************************************************/
+@media all and (max-width: 1080px) {
+	.portfoliowrap2{
+		width:200px;
+		margin-bottom:40px;
+		margin-top:40px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		line-height: 200px;
+		overflow-y: scroll;
+	}
+	ul.portfolio > li:last-child{
+		padding-bottom: 100px;
+	}
+	ul.portfolio li {
+		margin-bottom:10px;
+		margin-top:10px;
+		max-width: 200px;
+		height: 200px;
+		float: left;
+		cursor: pointer;
+		display: none;
+		opacity: 0;
+	}
+	.portfolioitem {
+		display: block;
+		position: relative;
+		vertical-align: middle;
+	}
+	.portfolioitem img {
+		width: 100%;
+		height: 100%;
+		vertical-align: middle;
+		opacity:.8;
+	}
+	.portfoliohover {
+		-webkit-transition: background-color 600ms ease;
+		-moz-transition: background-color 600ms ease;
+		-o-transition: background-color 600ms ease;
+		-ms-transition: background-color 600ms ease;
+		transition: background-color 600ms ease;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		z-index: 100;
+	}
+	.portfoliohover .info {
+		position: absolute;
+		bottom: 20%;
+		margin-bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.portfoliohover .info_proj {
+		position: absolute;
+		bottom: 50%;
+		margin-bottom: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.portfoliohover h5 {
+		color: #000;
+		text-transform: uppercase;
+		background-color: rgba(255, 255, 255, .8);
+	}
+	.portfoliohover h6 {
+		color: #000;
+		font-weight: 300;
+		background-color: rgba(255, 255, 255, .7);
+	}
+	ul.portfolio li:hover .portfoliohover {
+		background-color: rgba(255, 255, 255, .5);
+	}
+	ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover h6, ul.portfolio li:hover .portfoliohover h1 {
+		opacity: 1;
+	}
+
+	.portfoliofilterwrap{
+		width:100%;
+		margin-bottom:40px;
+		margin-top:40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	ul.portfoliofilter {
+		width: 100%;
+		text-align: center;
+	}
+	li.filter {
+		font-family: "Open Sans", Verdana, Arial, sans-serif;
+		line-height: 1.6em;
+		color: #454544;
+		background-color: #efefef;
+		text-decoration: none;
+		font-size: 12px;
+		display: inline-block;
+		font-weight: 300;
+		text-transform: uppercase;
+		cursor: pointer;
+		padding: 5px 15px;
+		border-radius: 3px;
+		margin: 0px 5px;
+	}
+	li.filter:hover {
+		color: #6093e7;
+	}
+	li.filter.active {
+		font-weight: 700;
+		background-color: #6093e7;
+		color: #FFF;
+	}
+	.portfoliohover h1 {
+		color: #FFF;
+		font-size: 150px;
+		font-weight: 300;
+		-webkit-transition: opacity, color 600ms ease;
+		-moz-transition: opacity, color 600ms ease;
+		-o-transition: opacity, color 600ms ease;
+		-ms-transition: opacity, color 600ms ease;
+		transition: opacity, color 600ms ease;
+		opacity: 0;
+	}
+
+	/******************************************************************
+		Slick
+	******************************************************************/
+	.slick-prev, .slick-next{
+		position: fixed;
+		z-index: 1;
+		display: none;
+	}
+	.slick-prev{
+		left:20px;
+	}
+	.slick-next{
+		right:20px;
+	}
+	.slick-prev:before, .slick-next:before{
+		color: #fff;
+	}
+	/*.slick-dots {
+		bottom: -100px;
+	}
+	.slick-dots li button:before {
+		color: red;
+	}
+	.slick-dots li.slick-active button:before {
+		color: red;
+	}*/
+	/******************************************************************
+		Photography
+	******************************************************************/
+	.jcarousel-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		vertical-align: middle;
+		padding-top: 300px;
+	}
+}
+
+/******************************************************************
 Made by Bryan Thov - 2017
 Adapted from Template - Treviso							
 Designed & Handcrafted by Zan from ninetofive.me								
 ******************************************************************/
-.slick-prev, .slick-next{
-	position: fixed;
-	z-index: 1;
-}
-.slick-prev{
-	left:20px;
-}
-.slick-next{
-	right:20px;
-}
-.slick-prev:before, .slick-next:before{
-	color: #848484;
-}

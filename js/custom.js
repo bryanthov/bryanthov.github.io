@@ -107,7 +107,8 @@ $(document).ready(function() {
 	  slidesToScroll: 1,
 	  touchMove: true,
 	  swipe:true,
-	  draggable: false
+	  draggable: false,
+	  dots: true
 	});
 	
 
