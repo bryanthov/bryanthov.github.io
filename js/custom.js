@@ -118,7 +118,9 @@ $(document).ready(function() {
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  touchMove: true,
+	  touchThreshold: 10,
 	  swipe:true,
+	  swipeToSlide: true,
 	  draggable: false,
 	  dots: true
 	});
