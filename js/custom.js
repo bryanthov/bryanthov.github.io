@@ -89,6 +89,18 @@ $(document).ready(function() {
 		});
 	});
 
+	// FL
+	$(function(){
+		$('ul.fl').mixitup({
+			targetSelector: '.item',
+			filterSelector: '.filter',
+			easing: 'smooth',
+			effects: ['fade'],
+			layoutMode: 'grid',
+			targetDisplayGrid: 'inline-block'
+		});
+	});
+
 	// Carousel Hover
 	$('div.section.block').hover(
 		function () {

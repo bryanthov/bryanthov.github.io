@@ -314,7 +314,7 @@ ul.mainmenu li {
 }
 ul.mainmenu li a {
 	padding: 30px 5px 31px 5px;
-	font-size: 12px;
+	font-size: 14px;
 	color: #838282;
 	-webkit-transition: color 400ms ease;
 	-moz-transition: color 400ms ease;
@@ -406,22 +406,13 @@ a.socialicon.facebook:hover {
 /******************************************************************
 	Portfolio
 ******************************************************************/
-.portfoliowrap {
+.flwrap {
 	width: 600px;
 	margin: 20px auto;
 	max-height: 200px;
 }
-.portfoliowrap2{
-	width:800px;
-	margin-bottom:40px;
-	margin-top:40px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	line-height: 200px;
-}
-ul.portfolio li {
-	max-width: 200px;
+ul.fl li {
+	width: 200px;
 	height: 200px;
 	float: left;
 	cursor: pointer;
@@ -528,6 +519,26 @@ li.filter.active {
 	opacity: 0;
 }
 /******************************************************************
+	Portfolio
+******************************************************************/
+.portfoliowrap2{
+	width:1000px;
+	margin-bottom:40px;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 250px;
+}
+ul.portfolio li {
+	width: 250px;
+	height: 250px;
+	float: left;
+	cursor: pointer;
+	display: none;
+	opacity: 0;
+}
+/******************************************************************
 	Footer
 ******************************************************************/
 .footer {
@@ -610,7 +621,7 @@ li.filter.active {
 	margin-right: auto;
 	position: relative;
 	vertical-align: middle;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .helper {
     display: inline-block;
@@ -619,13 +630,13 @@ li.filter.active {
 }
 div.section.full {
 	margin: auto;
-	width: 500px;
-	height: 500px;
+	width: 600px;
+	height: 600px;
 	overflow: hidden;
 }
 div.section.block {
-	width: 500px;
-	height: 500px;
+	width: 600px;
+	height: 600px;
 	cursor: pointer;
 	text-align: center;
 }
