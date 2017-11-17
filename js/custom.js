@@ -118,10 +118,10 @@ $(document).ready(function() {
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  touchMove: true,
-	  touchThreshold: 10,
+	  touchThreshold: 1,
 	  swipe:true,
 	  swipeToSlide: true,
-	  draggable: false,
+	  draggable: true,
 	  dots: true
 	});
 	
