@@ -630,12 +630,12 @@ ul.portfolio li {
 }
 div.section.full {
 	margin: auto;
-	width: 600px;
+	/*width: 600px;*/
 	height: 600px;
 	overflow: hidden;
 }
 div.section.block {
-	width: 600px;
+	/*width: 600px;*/
 	height: 600px;
 	cursor: pointer;
 	text-align: center;
