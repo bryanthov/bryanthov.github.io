@@ -122,7 +122,8 @@ $(document).ready(function() {
 	  swipe:true,
 	  swipeToSlide: true,
 	  draggable: true,
-	  dots: true
+	  dots: true,
+	  variableWidth: true
 	});
 	
 
