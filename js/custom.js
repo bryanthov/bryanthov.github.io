@@ -123,7 +123,8 @@ $(document).ready(function() {
 	  swipeToSlide: true,
 	  draggable: true,
 	  dots: true,
-	  variableWidth: true
+	  variableWidth: true,
+	  centerMode: true
 	});
 	
 
