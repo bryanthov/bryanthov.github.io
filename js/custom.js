@@ -113,32 +113,34 @@ $(document).ready(function() {
 		}
 	);
 
-	$('div.section.full').slick({
-  	  infinite:true,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  touchMove: true,
-	  touchThreshold: 1,
-	  swipe:true,
-	  swipeToSlide: true,
-	  draggable: true,
-	  dots: true,
-	  variableWidth: true,
-	  centerMode: true
-	});
-	
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+	} else {
+		$('div.section.full').slick({
+	  	  infinite:true,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  touchMove: true,
+		  touchThreshold: 1,
+		  swipe:true,
+		  swipeToSlide: true,
+		  draggable: true,
+		  dots: true,
+		  variableWidth: true,
+		  centerMode: true
+		});
+		
 
-    // Rotate Carousel with left and right
-	$(document).keydown( 
-		function(eventObject) {
-		     if(eventObject.which==37) {//left arrow
-		    	$('.slick-prev').trigger('click'); //emulates click on prev button 
-		     } else if(eventObject.which==39) {//right arrow
-		        $('.slick-next').trigger('click'); //emulates click on next button
-		     }
-		} 
-	);
-
+	    // Rotate Carousel with left and right
+		$(document).keydown( 
+			function(eventObject) {
+			     if(eventObject.which==37) {//left arrow
+			    	$('.slick-prev').trigger('click'); //emulates click on prev button 
+			     } else if(eventObject.which==39) {//right arrow
+			        $('.slick-next').trigger('click'); //emulates click on next button
+			     }
+			} 
+		);
+	}
 });
 
 /******************************************************************

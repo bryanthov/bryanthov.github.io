@@ -1024,7 +1024,25 @@ a.insta2:hover {
 		margin-right: auto;
 		position: relative;
 		vertical-align: middle;
-		margin-top: 50px;
+		margin-top: 10px;
+	}
+	div.section.full {
+		margin: auto;
+		height: 20%;
+		overflow: scroll;
+	}
+	.wrapper2{
+		width: 100%;
+		height: 100%;
+		margin-top: 80px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: scroll;
+	}
+	.wrapper5{
+		margin-top: 10px;
+		text-align: center;
+		position: relative;
 	}
 }
 
