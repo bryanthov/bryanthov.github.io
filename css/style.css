@@ -64,6 +64,10 @@ a {
 /******************************************************************
 	General
 ******************************************************************/								
+sup { 
+    vertical-align: super;
+    font-size: 60%;
+}
 a {
 	font-family: "Open Sans", Verdana, Arial, sans-serif;
 	text-decoration: none;
@@ -168,6 +172,14 @@ h6 {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+}
+.content2 {
+	max-width:960px;
+	min-width:800px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
 }
 blockquote {
 	font-family: "Open Sans", Verdana, Arial, sans-serif;
@@ -397,11 +409,23 @@ a.socialicon.linkedin {
 a.socialicon.linkedin:hover {
 	background-position: 0px -30px;
 }
-a.socialicon.facebook {
-	background-position: -30px 0px;
+a.insta {
+	background-image: url(../img/instagram.png);
+	background-size: contain;
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 10px 0px 0px 0px;
 }
-a.socialicon.facebook:hover {
-	background-position: -30px -30px;
+a.insta:hover {
+	background-image: url(../img/instagram2.png);
+	background-size: contain;
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 10px 0px 0px 0px;
 }
 /******************************************************************
 	Portfolio
@@ -420,13 +444,15 @@ ul.fl li {
 	opacity: 0;
 }
 .portfolioitem {
+	max-width: 250px;
+	max-height: 250px;
 	display: block;
 	position: relative;
 	vertical-align: middle;
 }
 .portfolioitem img {
-	width: 100%;
-	height: 100%;
+	max-width: 250px;
+	max-height: 250px;
 	vertical-align: middle;
 	opacity:.8;
 }
@@ -470,6 +496,12 @@ ul.portfolio li:hover .portfoliohover {
 	background-color: rgba(255, 255, 255, .5);
 }
 ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover h6, ul.portfolio li:hover .portfoliohover h1 {
+	opacity: 1;
+}
+ul.fl li:hover .portfoliohover {
+	background-color: rgba(255, 255, 255, .5);
+}
+ul.fl li:hover .portfoliohover h5 {
 	opacity: 1;
 }
 
@@ -647,14 +679,35 @@ div.section.block img {
     max-height: 100%;
 }
 .wrapper3{
-	height: 100%;
+	height: 70%;
+	padding-top: 20%;
 	text-align: center;
-	top: 20%;
 	position: relative;
 }
 .projects_summary{
 	text-align: center;
 	margin-top: 10px;
+}
+.wrapper5{
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+a.insta2 {
+	background-image: url(../img/instagram.png);
+	background-size: contain;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px 0px 0px;
+}
+a.insta2:hover {
+	background-image: url(../img/instagram2.png);
+	background-size: contain;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px 0px 0px;
 }
 
 /******************************************************************
@@ -755,6 +808,59 @@ div.section.block img {
 	color: rgba(0,0,0,.3);
 }
 
+/******************************************************************
+	Blog
+******************************************************************/
+.blogtitle {
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+.blogtitle img{
+	max-width: 100%;
+}
+.blogposts {
+	min-width: 500px;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+.blogitem{
+	height: 250px;
+	width: 500px;
+	margin: auto;
+	margin-bottom: 10px;
+	-webkit-transition: background-color 600ms ease;
+	-moz-transition: background-color 600ms ease;
+	-o-transition: background-color 600ms ease;
+	-ms-transition: background-color 600ms ease;
+	transition: background-color 600ms ease;
+}
+.blogitem:hover, .blogimgpreview:hover {
+	opacity: 0.4;
+}
+.blogimgpreview{
+	-webkit-transition: background-color 600ms ease;
+	-moz-transition: background-color 600ms ease;
+	-o-transition: background-color 600ms ease;
+	-ms-transition: background-color 600ms ease;
+	transition: background-color 600ms ease;
+	width: 250px;
+	height: 100%;
+	float: left;
+}
+.blogimgpreview img{
+	width: 250px;
+	height: 250px;
+	object-fit: contain;
+}
+.blogtextpreview{
+	width: 250px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
 /******************************************************************
 	Mobile
 ******************************************************************/
@@ -920,7 +1026,6 @@ div.section.block img {
 		vertical-align: middle;
 		margin-top: 50px;
 	}
-
 }
 
 /******************************************************************

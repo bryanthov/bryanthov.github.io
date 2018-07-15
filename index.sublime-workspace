@@ -1,0 +1,484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"calen",
+				"calendar"
+			],
+			[
+				"cal",
+				"calendar"
+			],
+			[
+				"m",
+				"months"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"ba",
+				"backgroundColor"
+			],
+			[
+				"day",
+				"dayEle"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"b",
+				"inline-block\tdisplay"
+			],
+			[
+				"msgs_bow",
+				"msgs_bow_names"
+			],
+			[
+				"msgs_b",
+				"msgs_bow_names"
+			],
+			[
+				"spec",
+				"specsize"
+			],
+			[
+				"total",
+				"totalmsgday"
+			],
+			[
+				"write",
+				"writefile"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"overf",
+				"overflow"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"jcarouse",
+				"jcarouselControl"
+			],
+			[
+				"jcar",
+				"jcarousel-wrapper"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"img",
+				"background-image"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"overflo",
+				"overflow-x"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"pot",
+				"pot_curr_val"
+			],
+			[
+				"pot_",
+				"pot_updated_val"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"month",
+				"month_dict"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bthov/Documents/bt_github/css/style.css",
+		"/Users/bthov/Documents/bt_github/photography.html",
+		"/Users/bthov/Documents/bt_github/proj9.html",
+		"/Users/bthov/Documents/bt_github/projects.html",
+		"/Users/bthov/Documents/bt_github/proj3.html",
+		"/Users/bthov/Documents/bt_github/proj2.html",
+		"/Users/bthov/Documents/bt_github/proj5.html",
+		"/Users/bthov/Documents/bt_github/proj6.html",
+		"/Users/bthov/Documents/bt_github/proj7.html",
+		"/Users/bthov/Documents/bt_github/proj1.html",
+		"/Users/bthov/Documents/bt_github/proj4.html",
+		"/Users/bthov/Documents/bt_github/index.html",
+		"/Users/bthov/Desktop/index.js",
+		"/Users/bthov/Desktop/index.html",
+		"/Users/bthov/Documents/bt_github/js/responsiveslides.js",
+		"/Users/bthov/Documents/bt_github/js/jquery.mixitup.js",
+		"/Users/bthov/Documents/bt_github/js/jquery.jcarousel.js",
+		"/Users/bthov/Documents/bt_github/js/custom.js",
+		"/Users/bthov/Documents/bt_github/js/jquery.jcarousel.min.js",
+		"/Users/bthov/Documents/bt_github/js/jquery.min.js",
+		"/Users/bthov/Documents/bt_github/js/jquery.mixitup.min.js",
+		"/Users/bthov/Documents/bt_github/js/responsiveslides.min.js",
+		"/Users/bthov/Desktop/style.css",
+		"/Users/bthov/Desktop/Current Project/calendar-app copy/js/index.js",
+		"/Users/bthov/Desktop/Current Project/calendar-app copy/index.html",
+		"/Users/bthov/Desktop/Code/Calander/calendar-and-clock/js/index.js",
+		"/Users/bthov/Desktop/Code/Calander/calendar-and-clock/index.html",
+		"/Users/bthov/Desktop/Mendeley Desktop.plist",
+		"/Users/bthov/Desktop/Aurora -Design Challenge/sizecalc.py",
+		"/Users/bthov/Desktop/sizecalc.py",
+		"/Users/bthov/Desktop/DSC05719.ARW",
+		"/Users/bthov/Desktop/test.html",
+		"/Users/bthov/Desktop/calendar-app copy/js/index.js",
+		"/Users/bthov/Desktop/calendar-app copy/css/style.css",
+		"/Users/bthov/Desktop/calendar-app copy/index.html",
+		"/Users/bthov/Downloads/calendar-app/js/index.js",
+		"/Users/bthov/Downloads/calendar-app/index.html",
+		"/Users/bthov/Desktop/Code/FB Chats/chat.py",
+		"/Users/bthov/Desktop/58.html",
+		"/Users/bthov/Desktop/FB_Chat_Html_Parser.py",
+		"/Users/bthov/Desktop/chat.py",
+		"/Users/bthov/Desktop/WordCloud.py",
+		"/Users/bthov/Desktop/chat2.py",
+		"/Users/bthov/Desktop/656.html",
+		"/Users/bthov/Desktop/test2.py",
+		"/Users/bthov/Desktop/htmlparse.py",
+		"/Users/bthov/Desktop/id.html",
+		"/Users/bthov/Desktop/Masters 2017/Masters Fall 2017/STATS C100/Projects/proj2/proj2.ipynb",
+		"/Users/bthov/Desktop/htmlp2.py",
+		"/Users/bthov/Desktop/njstest/server.js",
+		"/Users/bthov/Documents/MATLAB/ME201_02142017_Project1_2.m",
+		"/Users/bthov/Documents/MATLAB/ME201_02142017_Project1.m",
+		"/Users/bthov/Documents/MATLAB/untitled2.m",
+		"/Users/bthov/Documents/MATLAB/l_c.m",
+		"/Users/bthov/Documents/MATLAB/untitled.m",
+		"/Users/bthov/Documents/MATLAB/untitled3.m",
+		"/Users/bthov/Desktop/bot.py",
+		"/Users/bthov/Desktop/Code/Python Practice/pyrobot.py",
+		"/Users/bthov/Downloads/facebook-HeyBryann/messages/656.html",
+		"/Users/bthov/Documents/bt_github/proj8.html",
+		"/Users/bthov/Documents/bt_github/blog.html",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw6/hw6.ipynb",
+		"/Users/bthov/Documents/bt_github/photography2.html",
+		"/Users/bthov/Documents/bt_github/projtemplate.html",
+		"/Users/bthov/Documents/bt_github/css/webfont.css",
+		"/Users/bthov/Desktop/Website/jcarousel-0.3.5/examples/responsive/jcarousel.responsive.css",
+		"/Users/bthov/Desktop/Website/jquery.jcarousel.js",
+		"/Users/bthov/Desktop/Website/HTML/js/jquery.jcarousel.js",
+		"/Users/bthov/Desktop/Website/HTML/photography2.html",
+		"/Users/bthov/Desktop/Website/HTML/index.html",
+		"/Users/bthov/Desktop/Website/HTML/projects.html",
+		"/Users/bthov/Desktop/Website/HTML/blog.html",
+		"/Users/bthov/Desktop/Website/HTML/proj4.html",
+		"/Users/bthov/Desktop/Website/HTML/proj8.html",
+		"/Users/bthov/Desktop/Website/HTML/proj1.html",
+		"/Users/bthov/Desktop/Website/HTML/icons/png/source.txt",
+		"/Users/bthov/Desktop/Website/HTML/projtemplate.html",
+		"/Users/bthov/Desktop/Code/Site 2/HTML/index copy.html",
+		"/Users/bthov/Desktop/Code/Site 2/HTML/index.html",
+		"/Users/bthov/Desktop/Website/HTML/css/webfont.css",
+		"/Users/bthov/Desktop/Code/Site 2/HTML/js/custom.js",
+		"/Users/bthov/Desktop/Code/Site 2/HTML/css/style.css",
+		"/Users/bthov/Desktop/Site/HTML/css/style.css",
+		"/Users/bthov/Desktop/Website/HTML/css/style copy.css",
+		"/Users/bthov/Desktop/Website/HTML/css/webfont copy.css",
+		"/Users/bthov/Desktop/Site/HTML/js/custom.js",
+		"/Users/bthov/Desktop/Site/HTML/index.html",
+		"/Users/bthov/Desktop/Site/HTML/css/webfont.css",
+		"/Volumes/32GB CRUZER/Spring 2016/html/hw8.html",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw5/ok_tests/q10.py",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw5/ok_tests/q09.py",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw5/ok_tests/q08.py",
+		"/Users/bthov/Downloads/hw5/hw5.ipynb",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw5/fec.sql",
+		"/Users/bthov/Desktop/STATS C100/0_Git_Master/Branch_100817/hw/hw2/hw2_solution.ipynb",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw1/hw1.ipynb",
+		"/Users/bthov/Desktop/STATS C100/Homework/hw2/hw2.ipynb",
+		"/Users/bthov/Desktop/lab7.py",
+		"/Users/bthov/Desktop/lab07/ok_tests/q02.py",
+		"/Users/bthov/Desktop/three.js-master/examples/js/ShaderTerrain.js",
+		"/Users/bthov/Desktop/three.js-master/examples/webgl_terrain_dynamic.html",
+		"/Users/bthov/Desktop/lab6/scripts/three.js",
+		"/Users/bthov/Desktop/lab6/scripts/p5bots.js",
+		"/Users/bthov/Desktop/lab6/scripts/Detector.js",
+		"/Users/bthov/Desktop/lab6/scripts/FirstPersonControls.js",
+		"/Users/bthov/Desktop/lab6/scripts/stats.min.js",
+		"/Users/bthov/Desktop/helloWorld/script.js",
+		"/Users/bthov/Desktop/helloWorld/index.html",
+		"/Users/bthov/Desktop/lab6/0lab5.html",
+		"/Users/bthov/Desktop/three.js-master/examples/webgl_physics_rope.html",
+		"/Users/bthov/Downloads/p5bots-master/src/p5bots-server/README.md",
+		"/Users/bthov/Downloads/p5bots-master/examples/README.md",
+		"/Users/bthov/Desktop/three.js-master/examples/js/controls/FirstPersonControls.js",
+		"/Users/bthov/Desktop/three.js-master/examples/0lab5.html",
+		"/usr/local/lib/node_modules/p5bots-server/lib/serial.js",
+		"/Users/bthov/Downloads/p5bots-master/examples/example_scripts/06_varres/01_Potentiometer.js",
+		"/Users/bthov/Downloads/p5bots-master/examples/HelloWorld.md",
+		"/usr/local/lib/node_modules/p5bots-server/example/index.html",
+		"/usr/local/lib/node_modules/p5bots-server/example/quicktest.js",
+		"/Users/bthov/Desktop/script.js",
+		"/Users/bthov/Downloads/p5bots-master/examples/index.html",
+		"/Users/bthov/Desktop/try.py",
+		"/Users/bthov/Desktop/STATS C100/Lab/lab02/lab02.ipynb",
+		"/Users/bthov/Desktop/colorchoose.py",
+		"/Users/bthov/Desktop/pyrobot/pyrobot.py",
+		"/Users/bthov/Downloads/facebook-HeyBryann/html/ads.htm",
+		"/Users/bthov/Downloads/facebook-HeyBryann/html/contact_info.htm",
+		"/Users/bthov/Downloads/facebook-HeyBryann/html/events.htm"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
