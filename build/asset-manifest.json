@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bryanthov_site/static/css/main.d4e6afcd.css",
-    "main.js": "/bryanthov_site/static/js/main.75bfb758.js",
-    "static/media/bry.png": "/bryanthov_site/static/media/bry.d0a34e1569c62c0d9610.png",
-    "static/media/pw1.jpg": "/bryanthov_site/static/media/pw1.77276cfd6e6db3fdda7b.jpg",
-    "static/media/pbp2.png": "/bryanthov_site/static/media/pbp2.d7e17ad43db2b732e292.png",
-    "static/media/appl.jpg": "/bryanthov_site/static/media/appl.688af480bf7e44a83752.jpg",
-    "static/media/pbpcase.jpg": "/bryanthov_site/static/media/pbpcase.b543c36c046965f3af42.jpg",
-    "static/media/ln.png": "/bryanthov_site/static/media/ln.85f850a54081a1da6c97.png",
-    "index.html": "/bryanthov_site/index.html",
-    "main.d4e6afcd.css.map": "/bryanthov_site/static/css/main.d4e6afcd.css.map",
-    "main.75bfb758.js.map": "/bryanthov_site/static/js/main.75bfb758.js.map"
+    "main.css": "/static/css/main.d4e6afcd.css",
+    "main.js": "/static/js/main.48fbd72b.js",
+    "static/media/bry.png": "/static/media/bry.d0a34e1569c62c0d9610.png",
+    "static/media/pw1.jpg": "/static/media/pw1.77276cfd6e6db3fdda7b.jpg",
+    "static/media/pbp2.png": "/static/media/pbp2.d7e17ad43db2b732e292.png",
+    "static/media/appl.jpg": "/static/media/appl.688af480bf7e44a83752.jpg",
+    "static/media/pbpcase.jpg": "/static/media/pbpcase.b543c36c046965f3af42.jpg",
+    "static/media/ln.png": "/static/media/ln.85f850a54081a1da6c97.png",
+    "index.html": "/index.html",
+    "main.d4e6afcd.css.map": "/static/css/main.d4e6afcd.css.map",
+    "main.48fbd72b.js.map": "/static/js/main.48fbd72b.js.map"
   },
   "entrypoints": [
     "static/css/main.d4e6afcd.css",
-    "static/js/main.75bfb758.js"
+    "static/js/main.48fbd72b.js"
   ]
 }
